@@ -8,20 +8,22 @@ describe 'yak', ->
   beforeEach ->
     @robot =
       hear: sinon.spy()
+    @msg =
+      send: sinon.spy()
 
     require('../src/yak')(@robot)
 
   it 'registers a hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/(yak.*.shav)|(shav*.*yak)/i)
 
-  it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWithMatch("yak shaving")
+  it 'sends a message', ->
+    expect(@msg.send).to.have.been.calledWith("yak shaving")
 
-  it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWithMatch("shave that yak!")
+  it 'sends a message', ->
+    expect(@msg.send).to.have.been.calledWith("shave that yak!")
 
-  it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWithMatch("yak shaver")
+  it 'sends a message', ->
+    expect(@msg.send).to.have.been.calledWith("yak shaver")
 
-  it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWithMatch("shaved a YAK!")
+  it 'sends a message', ->
+    expect(@msg.send).to.have.been.calledWith("I shaved a YAK!")

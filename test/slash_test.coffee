@@ -7,13 +7,14 @@ expect = chai.expect
 describe 'slash', ->
   beforeEach ->
     @robot =
-      respond: sinon.spy()
       hear: sinon.spy()
+    @msg =
+      send: sinon.spy()
 
     require('../src/slash')(@robot)
 
   it 'registers a hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/(slash)/i)
 
-  it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWithMatch("slashy o")
+  it 'sends a message', ->
+    expect(@msg.send).to.have.been.calledWith("slashy o")

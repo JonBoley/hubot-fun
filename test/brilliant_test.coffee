@@ -8,11 +8,13 @@ describe 'brilliant', ->
   beforeEach ->
     @robot =
       hear: sinon.spy()
+    @msg =
+      send: sinon.spy()
 
     require('../src/brilliant')(@robot)
 
   it 'registers a hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/(brilliant)/i)
 
-  it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWithMatch("Brilliant!")
+  it 'sends a message', ->
+    expect(@msg.send).to.have.been.calledWith("Brilliant!")
