@@ -17,4 +17,6 @@ Add 'hubot-fun' to your `package.json` file, e.g.
   }
 ```
 
-Then add 'hubot-fun' to your `external_scripts.json` file and run `npm install`.  
+Then add the `hubot-fun` entry to the `external-scripts.json` file and run `npm install`.
+
+    ["hubot-fun"]
