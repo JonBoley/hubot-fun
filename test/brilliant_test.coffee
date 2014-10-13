@@ -15,6 +15,4 @@ describe 'brilliant', ->
 
   it 'registers a hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/(brilliant)/i)
-
-  it 'sends a message', ->
-    expect(@msg.send).to.have.been.calledWith("Brilliant!")
+    
