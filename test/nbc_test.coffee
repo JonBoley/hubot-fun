@@ -13,3 +13,12 @@ describe 'nbc', ->
 
   it 'registers a hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/(themoreyouknow|The more you know|tmyk)/i)
+
+  it 'registers a hear listener', ->
+    expect(@robot.hear).to.have.been.calledWithMatch("themoreyouknow")
+
+  it 'registers a hear listener', ->
+    expect(@robot.hear).to.have.been.calledWithMatch("The more you know")
+
+  it 'registers a hear listener', ->
+    expect(@robot.hear).to.have.been.calledWithMatch("tmyk")

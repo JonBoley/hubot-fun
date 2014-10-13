@@ -14,3 +14,6 @@ describe 'slash', ->
 
   it 'registers a hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/(slash)/i)
+
+  it 'registers a hear listener', ->
+    expect(@robot.hear).to.have.been.calledWithMatch("slashy o")

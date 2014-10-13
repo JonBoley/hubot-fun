@@ -13,3 +13,6 @@ describe 'brilliant', ->
 
   it 'registers a hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/(brilliant)/i)
+
+  it 'registers a hear listener', ->
+    expect(@robot.hear).to.have.been.calledWithMatch("Brilliant!")
