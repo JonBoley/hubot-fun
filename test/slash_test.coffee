@@ -15,11 +15,3 @@ describe 'slash', ->
 
   it 'registers a hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/(slash)/i)
-
-  it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/slashy o/)
-
-  it 'sends a message', ->
-    expect(@robot.hear).to.have.been.calledWith(/slashy o/)
-    expect(@msg.send).to.have.been.called
-
