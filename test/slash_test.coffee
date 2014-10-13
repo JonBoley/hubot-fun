@@ -12,4 +12,4 @@ describe 'slash', ->
     require('../src/slash')(@robot)
 
   it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/slash/)
+    expect(@robot.hear).to.have.been.calledWith("slashy o")

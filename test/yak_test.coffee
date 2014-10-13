@@ -12,13 +12,13 @@ describe 'yak', ->
     require('../src/yak')(@robot)
 
   it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/shave a yak/)
+    expect(@robot.hear).to.have.been.calledWith("shave a yak")
 
   it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/yak shaving/)
+    expect(@robot.hear).to.have.been.calledWith("yak shaving")
 
   it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/shave the yak/)
+    expect(@robot.hear).to.have.been.calledWith("shave the yak")
 
   it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/yak shaver/)
+    expect(@robot.hear).to.have.been.calledWith("yak shaver")

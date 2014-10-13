@@ -12,4 +12,4 @@ describe 'brilliant', ->
     require('../src/brilliant')(@robot)
 
   it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/Brilliant!/)
+    expect(@robot.hear).to.have.been.calledWith("Brilliant!")

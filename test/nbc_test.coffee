@@ -12,10 +12,10 @@ describe 'nbc', ->
     require('../src/nbc')(@robot)
 
   it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/themoreyouknow/)
+    expect(@robot.hear).to.have.been.calledWith("themoreyouknow")
 
   it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/The more you know/)
+    expect(@robot.hear).to.have.been.calledWith("The more you know")
 
   it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/tmyk/)
+    expect(@robot.hear).to.have.been.calledWith("tmyk")
