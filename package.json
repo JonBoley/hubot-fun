@@ -25,6 +25,7 @@
 
   "devDependencies": {
     "mocha": "*",
+    "mocha-lcov-reporter": "*",
     "chai": "*",
     "sinon-chai": "*",
     "sinon": "*",
