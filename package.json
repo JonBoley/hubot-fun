@@ -27,7 +27,8 @@
     "mocha": "*",
     "chai": "*",
     "sinon-chai": "*",
-    "sinon": "*"
+    "sinon": "*",
+    "coveralls": "^2.10.1"
   },
 
   "main": "index.coffee",
