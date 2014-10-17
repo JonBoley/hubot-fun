@@ -28,7 +28,7 @@ Then add the `hubot-fun` entry to the `external-scripts.json` file and run `npm 
 [npm-image]: http://img.shields.io/npm/v/hubot-fun.svg?style=flat
 [travis-url]: https://travis-ci.org/JonBoley/hubot-fun
 [travis-image]: http://img.shields.io/travis/JonBoley/hubot-fun/master.svg?style=flat
-[daviddm-url]: https://david-dm.org/JonBoley/hubot-fun.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/JonBoley/hubot-fun
 [daviddm-image]: http://img.shields.io/david/JonBoley/hubot-fun.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/JonBoley/hubot-fun
 [coveralls-image]: http://img.shields.io/coveralls/JonBoley/hubot-fun/master.svg?style=flat
