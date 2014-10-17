@@ -1,6 +1,6 @@
 # Hubot Fun
 
-[![Build Status](https://travis-ci.org/JonBoley/hubot-fun.svg)](https://travis-ci.org/JonBoley/hubot-fun)
+[![Build Status](https://travis-ci.org/JonBoley/hubot-fun.svg)](https://travis-ci.org/JonBoley/hubot-fun) [![Coverage Status](https://img.shields.io/coveralls/JonBoley/hubot-fun.svg)](https://coveralls.io/r/JonBoley/hubot-fun)
 
 A fun little script package for [Hubot](https://hubot.github.com)
 
