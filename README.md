@@ -1,6 +1,9 @@
 # Hubot Fun
 
-[![Build Status](https://travis-ci.org/JonBoley/hubot-fun.svg)](https://travis-ci.org/JonBoley/hubot-fun) [![Coverage Status](https://img.shields.io/coveralls/JonBoley/hubot-fun.svg)](https://coveralls.io/r/JonBoley/hubot-fun)
+[![NPM version][npm-image]][npm-url] 
+[![Build Status][travis-image]][travis-url] 
+[![Dependency Status][daviddm-image]][daviddm-url] 
+[![Coverage Status][coveralls-image]][coveralls-url]
 
 A fun little script package for [Hubot](https://hubot.github.com)
 
@@ -20,3 +23,12 @@ Add 'hubot-fun' to your `package.json` file, e.g.
 Then add the `hubot-fun` entry to the `external-scripts.json` file and run `npm install`.
 
     ["hubot-fun"]
+
+[npm-url]: https://www.npmjs.org/package/hubot-fun
+[npm-image]: http://img.shields.io/npm/v/hubot-fun.svg?style=flat
+[travis-url]: https://travis-ci.org/JonBoley/hubot-fun
+[travis-image]: http://img.shields.io/travis/JonBoley/hubot-fun/master.svg?style=flat
+[daviddm-url]: https://david-dm.org/JonBoley/hubot-fun.svg?theme=shields.io
+[daviddm-image]: http://img.shields.io/david/JonBoley/hubot-fun.svg?style=flat
+[coveralls-url]: https://coveralls.io/r/JonBoley/hubot-fun
+[coveralls-image]: http://img.shields.io/coveralls/JonBoley/hubot-fun/master.svg?style=flat
