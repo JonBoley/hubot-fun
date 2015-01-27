@@ -16,7 +16,7 @@ Add 'hubot-fun' to your `package.json` file, e.g.
   "dependencies": {
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "hubot-fun": "1.2.0"
+    "hubot-fun": "1.2.2"
   }
 ```
 
